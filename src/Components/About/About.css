@@ -1,0 +1,26 @@
+.about{
+    height: 400px;
+    
+}
+.div-bg{
+    height: 350px;
+    width: 300px;
+    margin-top: 25px;
+    position: relative;
+    left: 150px;
+    
+}
+.image-bg{
+    height: 320px;
+    width: 280px;
+    position: relative;
+    left: 50px;
+    top: -15px;
+
+    
+}
+.about-content{
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
