@@ -6,13 +6,13 @@ import img2 from "../../images/dantle.PNG"
 
 const Project = () => {
   return (
-    <div className="my-5">
+    <div className="my-5" id="project">
       <h1 className="text-center fw-bold fs-1 text-white py-5">Projects</h1>
       <div className="d-flex justify-content-center align-items-center py-5">
         <div className="row row-cols-1 row-cols-md-3 g-4 container">
           <div className="col">
             <div className="card bg-dark border-success h-100">
-              <img src={img} className="card-img-top image-align" alt="..." />
+              <img src={img} className="card-img-top image-align p-2 " alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Watch Shop App</h5>
                 <p className="card-text text-white">It is a MERN stack web application where you can order watch  items online easily. If you click on buy now button you will be redirected to login page and after login you can buy products, can see your order as a consumer and you can add, manage product to your shop as an admin.</p>
@@ -30,7 +30,7 @@ const Project = () => {
           </div>
           <div className="col">
             <div className="card bg-dark border-success h-100">
-              <img src={img1} className="card-img-top image-align" alt="..." />
+              <img src={img1} className="card-img-top image-align p-2" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Tourism Agency App</h5>
                 <p className="card-text text-white">It is a MERN stack web application where you can order watch  items online easily. If you click on buy now button you will be redirected to login page and after login you can buy products, can see your order as a consumer and you can add, manage product to your shop as an admin.</p>
@@ -48,7 +48,7 @@ const Project = () => {
           </div>
           <div className="col">
             <div className="card bg-dark border-success h-100">
-              <img src={img2} className="card-img-top image-align" alt="..." />
+              <img src={img2} className="card-img-top image-align p-2" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Dental Clinic App</h5>
                 <p className="card-text text-white">It is a MERN stack web application where you can order watch  items online easily. If you click on buy now button you will be redirected to login page and after login you can buy products, can see your order as a consumer and you can add, manage product to your shop as an admin.</p>

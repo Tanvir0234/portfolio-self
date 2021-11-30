@@ -1,10 +1,12 @@
 import React from 'react';
+import { Container, Nav } from 'react-bootstrap';
 
 import './Navbar.css';
 
 const Navbar = () => {
     return (
-        
+      
+      
       <nav className="navbar navbar-expand-lg">
       <div className="container">
         <p className="text-white fw-bold">Tanvir Ali</p>
@@ -17,13 +19,13 @@ const Navbar = () => {
               <a className="nav-link active anchor-btn" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link anchor-btn" href="#">About</a>
+              <a className="nav-link anchor-btn" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link anchor-btn" href="#">Projects</a>
+              <a className="nav-link anchor-btn" href="#project">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link anchor-btn" href="#">Contacts</a>
+              <a className="nav-link anchor-btn" href="#contact">Contacts</a>
             </li>
             <li className="nav-item">
               <button className="btn btn-success fw-bold px-5 py-1 rounded-pill  "><a className="nav-link anchor-btn" href="https://drive.google.com/file/d/1XrqtRKCAa0UAW0LuHO-ztZpqh92kjNUf/view">Resume</a></button>
@@ -36,7 +38,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-        
+       
     );
 };
 

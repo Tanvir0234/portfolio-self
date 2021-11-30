@@ -1,13 +1,17 @@
 import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className="container my-5">
+        <div className="container  my-5" id="skill">
+            <h1 className="text-white text-center">My Skills</h1>
+            
             <div className="row py-5">
-                <h1 className="text-white text-center">My Skills</h1>
+                
+                
                 <div className="col-lg-4 col-sm-12">
 
-                    <div className="my-4 mx-2">
+                    <div className="py-4 px-2">
                         <h2 className="text-white">Front End</h2>
                         <button type="button" class="btn btn-outline-success text-white">JavaScript</button>
                         <button type="button" class="btn btn-outline-success mx-2 text-white">React Js</button>
@@ -20,7 +24,7 @@ const Skills = () => {
 
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <div className="my-4 mx-2">
+                    <div className="py-4 px-2">
                         <h2 className="text-white">Back End</h2>
                         <button type="button" class="btn btn-outline-success text-white">Node Js</button>
                         <button type="button" class="btn btn-outline-success mx-2 my-2 text-white">Express JS</button>
@@ -30,7 +34,7 @@ const Skills = () => {
 
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <div className="my-4 mx-2">
+                    <div className="py-4 px-2">
                     <h2 className="text-white">Others</h2>
                     <button type="button" class="btn btn-outline-success text-white">C#</button>
                     <button type="button" class="btn btn-outline-success text-white mx-2">ASP.NET</button>
@@ -40,7 +44,9 @@ const Skills = () => {
                 </div>
 
             </div>
-        </div>
+            </div>
+            
+     
 
     );
 };

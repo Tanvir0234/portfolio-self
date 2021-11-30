@@ -4,21 +4,21 @@
     width: 18.75rem;
     
     position: relative;
-    left: 9.375rem;
-    top: -0.538rem;
+    right: 1.125rem;
+    top: 0.538rem;
     
 }
 .image-bg{
     height: 20rem;
-    width: 17.5rem;
+    width: 18.5rem;
     position: relative;
-    left: 3.125rem;
+    left: 3.025rem;
     top: -0.938rem;
 
     
 }
 .about-content{
     position: relative;
-    top: 3.75rem;
-    right:3.125rem;
+    top: 1.005rem;
+    right:0.015rem;
 }
