@@ -6,6 +6,9 @@ import Banner from './Components/Banner/Banner';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import Skills from './Components/Skills/Skills';
+
 
 
 
@@ -14,13 +17,16 @@ import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <div className="app">
-      <Navbar/>
+     
+      <Navbar />
       <Banner></Banner>
       <About></About>
+      <Skills></Skills>
       <Project></Project>
       <Contact></Contact>
-      
-    
+      <Footer></Footer>
+
+
     </div>
   );
 }

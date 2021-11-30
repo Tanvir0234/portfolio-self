@@ -1,26 +1,24 @@
-.about{
-    height: 400px;
-    
-}
+
 .div-bg{
-    height: 350px;
-    width: 300px;
-    margin-top: 25px;
+ 
+    width: 18.75rem;
+    
     position: relative;
-    left: 150px;
+    left: 9.375rem;
+    top: -0.538rem;
     
 }
 .image-bg{
-    height: 320px;
-    width: 280px;
+    height: 20rem;
+    width: 17.5rem;
     position: relative;
-    left: 50px;
-    top: -15px;
+    left: 3.125rem;
+    top: -0.938rem;
 
     
 }
 .about-content{
     position: relative;
-    top: 60px;
-    right: 50px;
+    top: 3.75rem;
+    right:3.125rem;
 }

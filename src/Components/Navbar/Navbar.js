@@ -26,7 +26,7 @@ const Navbar = () => {
               <a className="nav-link anchor-btn" href="#">Contacts</a>
             </li>
             <li className="nav-item">
-              <button className="btn btn-success fw-bold px-5 py-1 rounded-pill  "><a className="nav-link anchor-btn" href="#">Resume</a></button>
+              <button className="btn btn-success fw-bold px-5 py-1 rounded-pill  "><a className="nav-link anchor-btn" href="https://drive.google.com/file/d/1XrqtRKCAa0UAW0LuHO-ztZpqh92kjNUf/view">Resume</a></button>
               
             </li>
             

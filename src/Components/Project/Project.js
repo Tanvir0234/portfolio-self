@@ -6,9 +6,9 @@ import img2 from "../../images/dantle.PNG"
 
 const Project = () => {
   return (
-    <div>
-      <h1 className="text-center fw-bold fs-1 text-white">Projects</h1>
-      <div className="d-flex justify-content-center align-items-center">
+    <div className="my-5">
+      <h1 className="text-center fw-bold fs-1 text-white py-5">Projects</h1>
+      <div className="d-flex justify-content-center align-items-center py-5">
         <div className="row row-cols-1 row-cols-md-3 g-4 container">
           <div className="col">
             <div className="card bg-dark border-success h-100">
@@ -57,10 +57,6 @@ const Project = () => {
 
                 <button type="button" className="btn btn-outline-success mb-2"><a className="anchor-btn" href="https://dental-clinic-app-a682a.web.app">&nbsp;Live&nbsp; </a></button>
                 <button type="button" className="btn btn-outline-success mb-2"><a className="anchor-btn" href="https://github.com/Tanvir0234/dental-clinic-system">Client</a></button>
-                
-
-
-
               </div>
             </div>
           </div>

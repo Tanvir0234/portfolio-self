@@ -4,7 +4,7 @@ import image from '../../images/image2.png'
 
 const About = () => {
     return (
-        <div className="about mt-5 bg-dark">
+        <div className=" bg-dark my-4">
             <div className="row">
                 <div className="col-lg-6 col-sm-12">
                     <div className="bg-success div-bg rounded">
