@@ -18,7 +18,14 @@
     
 }
 .about-content{
+    padding: 5px 25px;
     position: relative;
     top: 1.005rem;
+    
    
+}
+@media (max-width:940px){
+    .div-bg{
+        display: none;
+    }
 }

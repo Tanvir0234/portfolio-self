@@ -11,7 +11,7 @@ const Project = () => {
       <div className="d-flex justify-content-center align-items-center py-5">
         <div className="row row-cols-1 row-cols-md-3 g-4 container">
           <div className="col">
-            <div className="card bg-dark border-success h-100">
+            <div className="card bg-dark project border-success h-100">
               <img src={img} className="card-img-top image-align p-2 " alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Watch Shop App</h5>
@@ -29,11 +29,11 @@ const Project = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card bg-dark border-success h-100">
+            <div className="card bg-dark project border-success h-100">
               <img src={img1} className="card-img-top image-align p-2" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Tourism Agency App</h5>
-                <p className="card-text text-white">It is a MERN stack web application where you can order watch  items online easily. If you click on buy now button you will be redirected to login page and after login you can buy products, can see your order as a consumer and you can add, manage product to your shop as an admin.</p>
+                <p className="card-text text-white">It is a MERN stack web application where you can book a tour  plan online easily. If you click on book now button you will be redirected to login page and after login you can order tour plan, can see your order as a consumer and you can add, manage product to your tourism as an admin.</p>
               </div>
               <div className="d-flex justify-content-around">
 
@@ -47,11 +47,11 @@ const Project = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card bg-dark border-success h-100">
+            <div className="card bg-dark project border-success h-100">
               <img src={img2} className="card-img-top image-align p-2" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Dental Clinic App</h5>
-                <p className="card-text text-white">It is a MERN stack web application where you can order watch  items online easily. If you click on buy now button you will be redirected to login page and after login you can buy products, can see your order as a consumer and you can add, manage product to your shop as an admin.</p>
+                <p className="card-text text-white">It is a Simple react web application where you can book dental  tratment online easily. If you click on buy now button you will be redirected to login page and after login you can book the dental tratment.</p>
               </div>
               <div className="d-flex justify-content-around">
 

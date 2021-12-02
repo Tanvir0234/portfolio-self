@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="bg-dark">
             <div className="row mt-3 mb-5">
                 <div className="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
-                    <div>
+                    <div className="banner-content">
                         <h1 className="fs-1 fw-bold text-white">Hi, I'm <span className="text-success">Tanvir Ali.</span> </h1>
                         <p className="fw-bold text-white fs-1"> I am a <Typical
                         className="text-success fs-1"
@@ -22,7 +22,7 @@ const Banner = () => {
                         <a href="#contact">
                             <button className="btn btn-outline-success me-3 mt-3 text-success" >Hire Me</button>
                         </a>
-                        <a href="https://drive.google.com/file/d/1XrqtRKCAa0UAW0LuHO-ztZpqh92kjNUf/view">
+                        <a href="https://drive.google.com/file/d/1KXAHg57Ok7NyU1OMgbfUZDIGGOVLBSMh/view?usp=sharing">
                             <button className="btn btn-success mt-3 text-white"><FaFileDownload></FaFileDownload> Download Resume</button></a>
                     </div>
                 </div>
